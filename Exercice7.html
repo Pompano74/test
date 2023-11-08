@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice7</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Écouté, regardez et explorez</h1>
+        <p>explorez la music classic</p>
+    </div>
+    <div class="content">
+        <audio src="musique.mp3" type="audio/mp3" controls class="audio"></audio>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rOjHhS5MtvA?si=cYrv9qrgipR_GXjr" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <form class="formulaire">
+        <h1>Inscription au prochain concert</h1>
+        <fieldset>
+            <legend>Nom complet</legend>
+            <label for="firstname">Prénom</label>
+            <input type="text" id="firstname" name="firstname" placeholder="*">
+            <label for="lastname">Nom</label>
+            <input type="text" id="lastname" name="firstname" placeholder="*">
+        </fieldset>
+        <fieldset>
+            <legend>Informatione de communiction</legend>
+            <label>Courriel</label>
+            <input type="email" placeholder="Ex:abcde1234@gmail.com*">
+            <input type="tel" placeholder="Ex:012-345-6789*">
+        </fieldset>
+    </form>
+</body>
+</html>
